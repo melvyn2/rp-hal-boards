@@ -112,6 +112,18 @@ RP2040 chip according to how it is connected up on the Feather RP2040.
 [Adafruit Feather RP2040]: https://www.adafruit.com/product/4884
 [adafruit-feather-rp2040]: https://github.com/rp-rs/rp-hal-boards/tree/main/boards/adafruit-feather-rp2040
 
+### [adafruit-feather-rp2040-adalogger] - Board Support for the [Adafruit Feather RP2040 Adalogger]
+
+You should include this crate if you are writing code that you want to run on
+an [Adafruit Feather RP2040 Adalogger] - a Feather form-factor RP2040 board from Adafruit.
+
+This crate includes the [rp2040-hal], but also configures each pin of the
+RP2040 chip according to how it is connected up on the Feather Adalogger.
+
+[Adafruit Feather RP2040 Adalogger]: https://www.adafruit.com/product/5980
+[adafruit-feather-rp2040-adalogger]: https://github.com/rp-rs/rp-hal-boards/tree/main/boards/adafruit-feather-rp2040-adalogger
+
+
 ### [adafruit-itsy-bitsy-rp2040] - Board Support for the [Adafruit ItsyBitsy RP2040]
 
 You should include this crate if you are writing code that you want to run on
